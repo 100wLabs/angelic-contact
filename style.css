@@ -10,4 +10,8 @@ div {
   text-align: center;
   width: 50%;  
 }
+div:first-child + div{
+    font-size: 48;
+    font-weight: 700;
+}
 
