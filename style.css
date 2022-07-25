@@ -15,6 +15,6 @@ div:first-child + div{
   font-weight: 700;
 }
 div:last-child img {
-  width: calc(100% / 3);
+  width: calc(100% / 4 - 20px)
 }
 
