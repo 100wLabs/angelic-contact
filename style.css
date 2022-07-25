@@ -10,9 +10,13 @@ div {
   text-align: center;
   width: 50%;  
 }
+
 div:first-child + div{
   font-size: 48;
   font-weight: 700;
+}
+div:last-child img {
+  width: 150px;
 }
 div:last-child img {
   width: calc(100% / 4 - 20px)
