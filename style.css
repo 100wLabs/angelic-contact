@@ -11,7 +11,10 @@ div {
   width: 50%;  
 }
 div:first-child + div{
-    font-size: 48;
-    font-weight: 700;
+  font-size: 48;
+  font-weight: 700;
+}
+div::last-child {
+  width: calc(100% / 3);
 }
 
