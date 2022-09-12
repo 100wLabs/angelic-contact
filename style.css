@@ -40,6 +40,10 @@ img.screenshot {
     width: 80%;
 }
 
+div.accordion {
+    font-family: "Helvetica Neue", sans-serif; 
+}
+
 button.accordion-button {
     font-size: 21px;
     font-weight: 400;
