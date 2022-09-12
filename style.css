@@ -39,3 +39,25 @@ img.screenshot {
     height: 80%;
     width: 80%;
 }
+
+button.accordion-button {
+    font-size: 21px;
+    font-weight: 400;
+    color: #44566C;
+}
+
+button.accordion-button:focus {
+    box-shadow: none;
+    color: #44566C;
+}
+
+button.accordion-button:not(.collapsed) {
+    color: #44566C;
+}
+
+div.accordion-body {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+    color: #44566C;
+}
