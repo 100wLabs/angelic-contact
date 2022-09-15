@@ -35,13 +35,24 @@ p.section {
     color: var(--bs-white);
 }
 
+p.email a {
+    font-size: 26px;
+    font-weight: 200;
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+p.email a:hover {
+    color: #BDE9FF;
+}
+
 img.screenshot {
     height: 80%;
     width: 80%;
 }
 
 div.accordion {
-    font-family: "Helvetica Neue", sans-serif; 
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 button.accordion-button {
