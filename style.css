@@ -46,6 +46,12 @@ p.email a:hover {
     color: #BDE9FF;
 }
 
+p.copyright {
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--bs-white);
+}
+
 img.screenshot {
     height: 80%;
     width: 80%;
